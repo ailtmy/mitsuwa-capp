@@ -110,7 +110,7 @@ const Auth: React.FC = () => {
                             name: authUser.user?.displayName,
                             email: authUser.user?.email,
                         });
-                    //storeのUpdate
+                    //storeのUpdate用
                     dispatch(
                         updateUserProfile({
                             displayName: username,
